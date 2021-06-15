@@ -35,7 +35,7 @@ test('renders same number of options seasons are passed in', ()=>{
 
 });
 
-test('handleSelect is called when an season is selected', () => {
+test('handleSelect is called when a season is selected', () => {
     const mockHandleSelect = jest.fn();
     render(<Show selectedSeason= "none" show= {testShow} handleSelect= {mockHandleSelect}/>);
 

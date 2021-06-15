@@ -9,7 +9,6 @@ test("display renders without props/error", () => {
 });
 
 const testShow = {
-    //add in approprate test data structure here.
    name: "spongebob",
    summary: "in a pineapple, under the sea", 
    seasons: [{
@@ -41,16 +40,7 @@ test("fetch button returns correct number of seasons", async () => {
     });
 });
 
-// test("fetch button returns optional prop function", async () => {
-//     render(<Display show= {testShow}/>);
 
-//     const button = screen.getByRole("button");
-//     userEvent.click(button);
-
-//     waitFor(async ()=> {
-//        ?
-//     });
-// });
 
 
 
